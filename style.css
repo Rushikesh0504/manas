@@ -158,6 +158,7 @@ nav a:hover {
    ============================================================ */
 section {
   padding: 56px 28px;
+   scroll-margin-top: 90px;
 }
 
 h2 {
@@ -365,6 +366,9 @@ footer {
   .logo-area h1 {
     display: flex;
   }
+section {
+  scroll-margin-top: 90px;   /* Adjust based on your navbar height */
+}
 
   /* Reduce hero title size */
   .hero-inner h1 {
@@ -470,3 +474,4 @@ footer {
 /* ============================================================
    END OF STYLE.CSS  
    ============================================================ */
+
